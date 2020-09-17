@@ -1,0 +1,55 @@
+{
+  "name": "ToddleProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint app",
+    "storybook": "start-storybook -p 7007"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "@react-native-community/async-storage": "^1.10.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.7.3",
+    "@react-navigation/stack": "^5.9.0",
+    "react-native-gesture-handler": "^1.7.0",
+    "react-native-reanimated": "^1.12.0",
+    "react-native-safe-area-context": "^3.1.4",
+    "react-native-screens": "^2.10.1",
+    "react-native-vector-icons": "^7.0.0",
+    "eslint-plugin-jest": "^24.0.0",
+    "jetifier": "^1.6.6",
+    "reactotron-react-native": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-ondevice-actions": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react-native": "^5.3.18",
+    "@storybook/react-native-server": "^5.3.18",
+    "@testing-library/react-native": "^7.0.1",
+    "babel-jest": "^26.3.0",
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.2",
+    "metro-react-native-babel-preset": "^0.63.0",
+    "prettier": "2.0.5",
+    "react-dom": "^16.13.1",
+    "react-test-renderer": "16.13.1",
+    "reactotron-react-native": "^5.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
